@@ -1,4 +1,4 @@
-package org.tsp.projects.ledar.referencedata.entity;
+package org.tsp.projects.ledar.referencedata.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

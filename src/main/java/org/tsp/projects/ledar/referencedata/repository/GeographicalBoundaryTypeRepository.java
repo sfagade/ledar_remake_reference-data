@@ -7,13 +7,14 @@ package org.tsp.projects.ledar.referencedata.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import org.tsp.projects.ledar.referencedata.model.MaritalStatus;
+import org.tsp.projects.ledar.referencedata.model.GeographicalBoundaryTypes;
+
 
 /**
  *
  * @author sfagade
  */
 @Repository
-public interface MaritalStatusRepository extends JpaRepository<MaritalStatus, Long> {
+public interface GeographicalBoundaryTypeRepository extends JpaRepository<GeographicalBoundaryTypes, Long> {
 
 }

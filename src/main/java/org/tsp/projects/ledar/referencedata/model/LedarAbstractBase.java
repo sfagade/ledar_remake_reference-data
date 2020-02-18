@@ -1,11 +1,11 @@
-package org.tsp.projects.ledar.referencedata.entity;
+package org.tsp.projects.ledar.referencedata.model;
 
 import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import org.tsp.projects.ledar.referencedata.entity.listener.RecordUpdateListener;
+import org.tsp.projects.ledar.referencedata.model.listener.RecordUpdateListener;
 
 @Data
 @MappedSuperclass

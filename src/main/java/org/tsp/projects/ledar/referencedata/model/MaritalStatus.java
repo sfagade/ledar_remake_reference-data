@@ -1,4 +1,4 @@
-package org.tsp.projects.ledar.referencedata.entity;
+package org.tsp.projects.ledar.referencedata.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,25 +11,24 @@ import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 /**
- *
  * @author sfagade
  */
 @Entity
-@Table(name = "ref_file_purpose")
-@AttributeOverride(name = "id", column = @Column(name = "file_purpose_id", nullable = false, columnDefinition = "BIGINT"))
+@Table(name = "ref_marital_status")
+@AttributeOverride(name = "id", column = @Column(name = "marital_status_id", nullable = false, columnDefinition = "BIGINT"))
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@AllArgsConstructor
 @Data
-public class FilePurpose extends LedarAbstractBase implements Serializable {
+@AllArgsConstructor
+public class MaritalStatus extends LedarAbstractBase implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     @Basic(optional = false)
     @NotNull
-    @Size(min = 1, max = 45)
-    @Column(name = "purpose_name")
-    private String purposeName;
+    @Size(min = 1, max = 15)
+    @Column(name = "marital_status_name")
+    private String maritalStatusName;
     @Size(max = 500)
     @Column(name = "description")
     private String description;

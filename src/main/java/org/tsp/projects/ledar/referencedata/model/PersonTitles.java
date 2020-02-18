@@ -1,4 +1,4 @@
-package org.tsp.projects.ledar.referencedata.entity;
+package org.tsp.projects.ledar.referencedata.model;
 
 import java.io.Serializable;
 import javax.persistence.AttributeOverride;

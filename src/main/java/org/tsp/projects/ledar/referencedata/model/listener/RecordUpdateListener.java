@@ -1,10 +1,10 @@
-package org.tsp.projects.ledar.referencedata.entity.listener;
+package org.tsp.projects.ledar.referencedata.model.listener;
 
 
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import java.time.LocalDateTime;
-import org.tsp.projects.ledar.referencedata.entity.LedarAbstractBase;
+import org.tsp.projects.ledar.referencedata.model.LedarAbstractBase;
 
 public class RecordUpdateListener {
 
